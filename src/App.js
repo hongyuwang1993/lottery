@@ -85,7 +85,6 @@ class App extends Component {
             activeId.push(0);
         }
         if (!this.state.isRolling) {
-            // 点击抽奖之后，我个人做法是将于九宫格有关的状态都还原默认
             this.setState({
                 activeId: activeId,
                 isRolling: true
